@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="https://anderbaher-tech.github.io/ab-deployed-base/web-greendesk/">
+  <base href="$FLUTTER_BASE_HREF">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -25,7 +25,7 @@
 
   <!-- Revert serviceWorkerVersion to null and use loadEntrypoint -->
   <script>
-    const serviceWorkerVersion = "4162159289";
+    const serviceWorkerVersion = null;
   </script>
   <script src="flutter.js" defer></script>
 </head>
