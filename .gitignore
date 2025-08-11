@@ -1,0 +1,4 @@
+
+# block secrets from built artifacts
+web-greendesk/assets/assets/service_account.json
+web-greendesk/assets/assets/.env
