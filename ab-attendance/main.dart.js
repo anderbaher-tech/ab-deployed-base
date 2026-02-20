@@ -53491,7 +53491,7 @@ A.aAq.prototype={
 $0(){return A.Gn(this.a,"register",null,B.bv,B.cn)},
 $S:0}
 A.aAr.prototype={
-$0(){return A.azL("https://anderbaher-tech.github.io/ab-deployed-base/ab-attendance-manager/")},
+$0(){return A.azL("https://ab-attendance-admin.github.io/web-attendance-admin/")},
 $S:0}
 A.B6.prototype={
 M(a){return A.rw(null,B.qx,A.ee(A.c6(A.b([A.aTg("assets/full_logo.png")],t.p),B.C,B.cz,B.u,0,B.F),null,null))}}
