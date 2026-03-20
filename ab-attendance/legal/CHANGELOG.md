@@ -9,6 +9,27 @@ Versioning policy:
 
 ---
 
+## v1.1.0
+- Effective Date: 2026-03-20
+- Published Date: 2026-03-20
+- Change Type: MINOR
+- Documents Changed:
+  - terms-and-conditions.html
+  - privacy-policy.html
+- Summary:
+  - Updated Terms to disclose precise and background location access during active attendance sessions where supported and enabled.
+  - Updated Privacy Policy to explain when background location may be collected, why it is used, and the limits on that processing.
+- Approval:
+  - Approved by: Not specified
+  - Approval Date: Not specified
+- Git References:
+  - Commit: PENDING
+  - Tag: legal-v1.1.0
+- Archive:
+  - docs/privacy/archive/v1.1.0/
+
+---
+
 ## v1.0.0
 - Effective Date: 2026-02-17
 - Published Date: 2026-02-17
