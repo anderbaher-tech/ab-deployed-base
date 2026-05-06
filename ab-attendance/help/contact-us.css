@@ -51,11 +51,25 @@ body {
   margin-bottom: 18px;
 }
 
-.brand img {
-  display: block;
-  width: min(220px, 52vw);
-  height: auto;
-  margin: 0 auto;
+.brand-wordmark {
+  display: inline-block;
+  font-size: clamp(1.75rem, 4vw, 2.2rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: var(--dark);
+}
+
+.brand-wordmark .brand-baher {
+  color: var(--primary);
+}
+
+.brand-wordmark sup {
+  font-size: 0.36em;
+  line-height: 0;
+  vertical-align: super;
+  color: var(--dark);
+  margin-left: 1px;
 }
 
 .art {
@@ -85,12 +99,30 @@ h1 {
 }
 
 .contact-block {
+  display: block;
   width: min(100%, 480px);
   margin: 0 auto;
   padding: 20px 18px;
   border: 1px solid var(--line);
   border-radius: 20px;
   background: var(--focus);
+}
+
+.contact-link-block {
+  text-decoration: none;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease,
+    background-color 0.18s ease;
+}
+
+.contact-link-block:hover,
+.contact-link-block:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(112, 173, 71, 0.34);
+  background: #f6faf2;
+  box-shadow: 0 14px 28px rgba(66, 92, 48, 0.08);
 }
 
 .contact-title {
@@ -108,22 +140,20 @@ h1 {
 }
 
 .email-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 48px;
-  padding: 0 18px;
-  border-radius: 14px;
-  background: var(--primary);
-  color: #ffffff;
+  display: inline-block;
+  color: var(--primary-deep);
   font-weight: 800;
+  font-size: 1rem;
   text-decoration: none;
-  box-shadow: 0 12px 24px rgba(112, 173, 71, 0.24);
+  border-bottom: 2px solid rgba(112, 173, 71, 0.28);
+  padding-bottom: 2px;
+  transition: color 0.18s ease, border-color 0.18s ease;
 }
 
 .email-link:hover,
 .email-link:focus-visible {
-  background: var(--primary-deep);
+  color: var(--primary);
+  border-color: var(--primary);
 }
 
 @media (max-width: 640px) {

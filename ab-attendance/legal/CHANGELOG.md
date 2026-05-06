@@ -9,6 +9,28 @@ Versioning policy:
 
 ---
 
+## v1.2.0
+- Effective Date: 2026-05-06
+- Published Date: 2026-05-06
+- Change Type: MINOR
+- Documents Changed:
+  - terms-and-conditions.html
+  - privacy-policy.html
+- Summary:
+  - Updated Terms to reflect the finalized Ander Baher trademarked product naming, clarified the multi-organisation usage model, and corrected governing law and account deletion wording.
+  - Updated Privacy Policy to disclose regularisation evidence and remarks, clarify Google-hosted storage/workflow services, and add Face++ fallback verification disclosure.
+  - Aligned retention, sharing, and operational-use language with the current attendance, OTP, and background-location flows.
+- Approval:
+  - Approved by: User-provided finalized draft
+  - Approval Date: 2026-05-06
+- Git References:
+  - Commit: PENDING
+  - Tag: legal-v1.2.0
+- Archive:
+  - docs/privacy/archive/v1.2.0/
+
+---
+
 ## v1.1.0
 - Effective Date: 2026-03-20
 - Published Date: 2026-03-20
